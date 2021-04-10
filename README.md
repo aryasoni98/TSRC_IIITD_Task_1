@@ -8,6 +8,25 @@ This repository contains code for constructing an algorithm that understands sim
 TSRC_1 [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1PyMc1X7mnzaP_E6_0h9g5kqJ730XFxv4?usp=sharing)<br>
 This is a [pytorch implementation](https://github.com/lukemelas/EfficientNet-PyTorch) neural net with architecture **EfficientNet**, by uploading pre-trained weights to the net, you can test it right from google colaboratory. TSRC_1 [<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/drive/1PyMc1X7mnzaP_E6_0h9g5kqJ730XFxv4?usp=sharing)<br>
 
+### File Structure
+This script assumes data are stored in following strcuture:
+
+#### Speech
+
+├── data frame
+
+│ └── batch of training data
+
+├── data distribution
+
+│ ├── waveforms and spectogramms of audio files
+
+└── Training neural net
+
+│____ Test
+
+└── out #store sub.csv
+
 ### Results:
 Below is a confusion matrix of validation data.
 
